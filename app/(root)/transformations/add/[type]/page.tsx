@@ -21,6 +21,7 @@ const AddTransformationTypePage = async ({
   return (
     <>
       <Header title={title} subtitle={subTitle} />
+
       <section className="mt-10">
         <TransformationForm
           action="Add"
